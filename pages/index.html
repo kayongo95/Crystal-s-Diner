@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crystal's diner</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/Screenshot_2024-10-18_223817-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .hero-icons .bx {
+        font-size: 3rem;
+        color: #7480ff;
+      }
+
+      .hero-icons > div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body class="font-[Ubuntu]">
+    <header>
+      <div
+        class="navbar bg-base-100 md:flex block text-center sticky top-0 z-10"
+      >
+        <div class="flex-1">
+          <a class="text-xl sm:text-3xl ml-10 text-primary uppercase font-bold"
+            >Crystal's Diner</a
+          >
+        </div>
+        <div class="flex-none mx-5">
+          <ul
+            class="menu menu-horizontal px-1 sm:flex flex-nowrap justify-center"
+          >
+            <li><a href="./index.html">Home</a></li>
+            <li>
+              <details>
+                <summary>Menu</summary>
+                <ul class="bg-base-100 rounded-t-none p-2 z-10">
+                  <li><a href="./menu.html">Starters</a></li>
+                  <li><a href="./menu.html">Mains</a></li>
+                  <li><a href="./menu.html">Afters</a></li>
+                  <li><a href="./menu.html">Drinks</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero" style="background-image: url(../assets/food\ bg.jpg)">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div
+          class="hero-content text-neutral-content text-center text-gray-300"
+        >
+          <div class="max-w-md">
+            <h3 class="text-3xl capitalize font-bold">welcome to</h3>
+            <h1 class="mb-2 text-5xl font-bold">Crystal's Diner</h1>
+            <p class="mb-5 text-xl font-semibold">
+              A place where your taste buds are treated to tasteful, flavorful,
+              delightful and yummy food.
+            </p>
+            <a href="./menu.html">
+              <button class="btn btn-primary uppercase">Menu</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        class="hero-icons md:flex md:justify-center mt-5 gap-10 grid grid-cols-2 sm:grid justify-items-center font-bold"
+      >
+        <div class="appetizers">
+          <i class="bx bxs-pizza"></i>
+          <span>Starters</span>
+        </div>
+        <div class="dishes">
+          <i class="bx bxs-bowl-rice"></i>
+          <span>Mains</span>
+        </div>
+        <div class="desserts">
+          <i class="bx bxs-cake"></i>
+          <span>Afters</span>
+        </div>
+        <div class="drinks">
+          <i class="bx bxs-coffee"></i>
+          <span>Drinks</span>
+        </div>
+      </div>
+
+      <div class="popular-food mt-5 mx-5">
+        <h2 class="text-3xl font-bold mb-5 text-center">Popular Food</h2>
+        <div class="grid lg:grid-cols-4 gap-5 md:grid-cols-2 sm:grid-cols-1">
+          <div class="card">
+            <img
+              class="object-cover w-full h-64 rounded"
+              src="../assets/spicy tuna.jpg"
+              alt="spicy tuna salad"
+            />
+            <div class="card-content">
+              <h3 class="text-lg font-bold mb-2">Spicy Tuna Salad</h3>
+              <p class="text-sm">
+                A tasty salad made with fresh tuna, cucumber, cherry tomatoes,
+                and a drizzle of crispy cucumber slices.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="object-cover w-full h-64 rounded"
+              src="../assets/chicken grilled.jpg"
+              alt="grilled chicken"
+            />
+            <div class="card-content">
+              <h3 class="text-lg font-bold mb-2">Grilled Chicken Salad</h3>
+              <p class="text-sm">
+                A tasty salad made with fresh grilled chicken breasts, cucumber,
+                cherry tomatoes, and a drizzle of crispy cucumber slices.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="object-cover w-full h-64 rounded"
+              src="../assets/baked salmon.jpg"
+              alt="baked salmon"
+            />
+            <div class="card-content">
+              <h3 class="text-lg font-bold mb-2">Baked Salmon</h3>
+              <p class="text-sm">
+                A tasty salad made with fresh baked salmon, cucumber, cherry
+                tomatoes, and a drizzle of crispy cucumber slices.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="object-cover w-full h-64 rounded"
+              src="../assets/fried shrimp.jpg"
+              alt="fried shrimp"
+            />
+            <div class="card-content">
+              <h3 class="text-lg font-bold mb-2">Fried Shrimp</h3>
+              <p class="text-sm">
+                A tasty salad made with fresh fried shrimp, cucumber, cherry
+                tomatoes, and a drizzle of crispy cucumber slices.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer bg-base-200 text-base-content p-10 mt-5">
+      <aside>
+        <img
+          src="../assets/Screenshot_2024-10-18_223817-removebg-preview.png"
+          alt="logo"
+          class="w-20 h-20 bg-primary rounded-full object-cover"
+        />
+        <p>Crystal's Diner.</p>
+      </aside>
+      <nav>
+        <a href="./index.html" class="link link-hover">Home</a>
+        <a href="./menu.html" class="link link-hover">Menu</a>
+        <a href="./about.html" class="link link-hover">About us</a>
+        <a href="./contact.html" class="link link-hover">Contact us</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Social</h6>
+        <div class="grid gap-4">
+          <a class="link link-hover">
+            <i class="bx bxl-twitter"></i>
+            <span>Twitter</span>
+          </a>
+          <a class="link link-hover">
+            <i class="bx bxs-phone"></i>
+            <span>+256 712-345-678</span>
+          </a>
+          <a class="link link-hover">
+            <i class="bx bxl-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </nav>
+    </footer>
+    <hr />
+    <div class="text-center py-5">
+      <p class="text-sm">&copy; 2024 Crystal's Diner. All rights reserved.</p>
+    </div>
+  </body>
+</html>

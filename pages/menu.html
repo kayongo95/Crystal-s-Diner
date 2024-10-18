@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/Screenshot_2024-10-18_223817-removebg-preview.png" type="image/x-icon">
+    <title>Menu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .btn {
+        border: 0;
+        background-color: #7480ff;
+        color: black;
+      }
+    </style>
+  </head>
+  <body class="font-[Ubuntu]">
+    <header class="text-center text-4xl text-2xl font-bold mt-5">
+      <h1 class="mb-5 uppercase">Crystal's diner menu</h1>
+      <div
+        class="flex justify-center mt-5 mx-5 grid lg:flex lg:justify-evenly gap-2 md:grid grid-cols-2 sm:block"
+      >
+        <div
+          class="px-4 py-2 bg-primary text-white rounded hover:bg-blue-400 transition duration-300"
+        >
+          <a href="#starters">Starters</a>
+        </div>
+        <div
+          class="px-4 py-2 bg-primary text-white rounded hover:bg-blue-400 transition duration-300"
+        >
+          <a href="#dishes">Mains</a>
+        </div>
+        <div
+          class="px-4 py-2 bg-primary text-white rounded hover:bg-blue-400 transition duration-300"
+        >
+          <a href="#desserts">Afters</a>
+        </div>
+        <div
+          class="px-4 py-2 bg-primary text-white rounded hover:bg-blue-400 transition duration-300"
+        >
+          <a href="#drinks">Drinks</a>
+        </div>
+      </div>
+    </header>
+    <main class="mt-5">
+      <h1 class="text-center text-3xl font-bold">Our Menu</h1>
+      <h1 class="btn mb-5 ml-5">Starters</h1>
+      <section
+        id="appetizers"
+        class="grid lg:grid-cols-4 md:grid-cols-2 gap-10 m-5"
+      >
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/salt fish balls.jpg" alt="salt fish balls" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Salt fish balls</h2>
+            <p>
+              A classic dish from Italy, these shrimp balls are filled with a
+              tangy sauce made from garlic, salt, and olive oil.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/chicken pakora.jpg" alt="chicken pakora" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Chicken pakora</h2>
+            <p>
+              A classic dish from Japan, this shrimp and vegetable stew is
+              served with a sweet and tangy sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/chilli mogo.jpg" alt="chilli mogo" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Chilli mogo</h2>
+            <p>
+              A classic dish from China, this chicken and vegetable stew is
+              served with a sweet and tangy sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/samosas.jpg" alt="samosas" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Samosas</h2>
+            <p>
+              A classic dish from India, these paneer tikka masala is served
+              with a sweet and tangy sauce.
+            </p>
+          </div>
+        </div>
+      </section>
+      <h1 class="btn mb-5 ml-5 mt-5">Mains</h1>
+      <section id="dishes" class="grid lg:grid-cols-4 md:grid-cols-2 gap-10 m-5">
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/mongolian beef.jpg" alt="mongolian beef" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Mongolian beef</h2>
+            <p>
+              A traditional Mongolian dish made from beef, with a sweet and
+              tangy sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/dragon chicken.jpg" alt="dragon chicken" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Dragon chicken</h2>
+            <p>
+              A traditional chinese dish made from chicken, with a sweet and
+              tangy sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/pan seared steak.jpg" alt="pan seared steak" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Pan seared steak</h2>
+            <p>
+              A traditional Korean dish made from steak, with a sweet and tangy
+              sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/chicken parmesan.jpg" alt="chicken parmesan" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Chicken parmesan</h2>
+            <p>
+              A traditional Italian dish made from chicken, with a sweet and
+              tangy sauce.
+            </p>
+          </div>
+        </div>
+      </section>
+      <h1 class="btn mb-5 ml-5 mt-5">Afters</h1>
+      <section
+        id="desserts"
+        class="grid lg:grid-cols-4 md:grid-cols-2 gap-10 m-5"
+      >
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img
+              src="../assets/brownie icecream cake.jpg"
+              alt="Brownie ice cream cake"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Brownie ice cream cake</h2>
+            <p>
+              A classic Italian dish made from ice cream, with a sweet and tangy
+              sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img
+              src="../assets/chunk Tahini cookies.jpg"
+              alt="chunk tahini cookies"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Chunk Tahini cookies</h2>
+            <p>
+              A classic Italian dish made from cookies, with a sweet and tangy
+              sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/cream horns.jpg" alt="cream horns" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Cream horns</h2>
+            <p>
+              A classic Italian dish made from cream, with a sweet and tangy
+              sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img
+              src="../assets/neapolitan icecream cupcake.jpg"
+              alt="neapolitan ice cream cupcake"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Neapolitan ice cream cupcake</h2>
+            <p>
+              A classic Italian dish made from ice cream, with a sweet and tangy
+              sauce.
+            </p>
+          </div>
+        </div>
+      </section>
+      <h1 class="btn mb-5 ml-5 mt-5">Drinks</h1>
+      <section id="drinks" class="grid lg:grid-cols-4 md:grid-cols-2 gap-10 m-5">
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/iced coffee.jpg" alt="iced coffee" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Iced coffee</h2>
+            <p>
+              A refreshing and sweet drink made from coffee, with a sweet and
+              tangy sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/coffee.jpg" alt="coffee" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Coffee</h2>
+            <p>
+              A sweet and refreshing drink made from coffee, with a sweet and
+              tangy sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/mango stone.jpg" alt="mango stone juice" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Mango stone juice</h2>
+            <p>
+              A refreshing and sweet drink made from mango, with a sweet and
+              tangy sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100 w-50 shadow-xl">
+          <figure>
+            <img src="../assets/berry smoothie.jpg" alt="berry smoothie" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Mango berry smoothie</h2>
+            <p>
+              A refreshing and sweet drink made from berries, with a sweet and
+              tangy sauce.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer bg-base-200 text-base-content p-10 mt-5">
+      <aside>
+        <img src="../assets/Screenshot_2024-10-18_223817-removebg-preview.png" alt="logo"
+        class="w-20 h-20 bg-primary rounded-full object-cover" />
+        <p>
+          Crystal's Diner.
+        </p>
+      </aside>
+      <nav>
+        <a href="./index.html" class="link link-hover">Home</a>
+        <a href="./menu.html" class="link link-hover">Menu</a>
+        <a href="./about.html" class="link link-hover">About us</a>
+        <a href="./contact.html" class="link link-hover">Contact us</a>
+      </nav>
+      <nav id="contact">
+        <h6 class="footer-title">Social</h6>
+        <div class="grid gap-4">
+          <a class="link link-hover">
+            <i class="bx bxl-twitter"></i>
+            <span>Twitter</span>
+          </a>
+          <a class="link link-hover">
+            <i class="bx bxs-phone"></i>
+            <span>(+256) 712-345-678</span>
+          </a>
+          <a class="link link-hover">
+            <i class="bx bxl-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </nav>
+    </footer>
+    <hr />
+    <div class="text-center py-5">
+      <p class="text-sm">
+        &copy; 2024 Crystal's Diner. All rights reserved.
+      </p>
+    </div>
+  </body>
+</html>
